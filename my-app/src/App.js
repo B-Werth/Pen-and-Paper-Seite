@@ -20,6 +20,7 @@ function App() {
     <ThemeProvider theme={darktheme}>
       <CssBaseline />
       <main>
+        <Navbar />
         <Button variant="contained">yo</Button>
       </main>
     </ThemeProvider>
